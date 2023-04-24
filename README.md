@@ -1,70 +1,59 @@
-# Getting Started with Create React App
+## Introdução
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Este projeto é uma implementação do clássico jogo "Tic Tac Toe" usando ReactJS (JSX). O objetivo do jogo é alinhar três símbolos iguais em uma linha vertical, horizontal ou diagonal.
 
-## Available Scripts
+## Instalação
 
-In the project directory, you can run:
+- Para instalar o projeto, siga os seguintes passos:
 
-### `npm start`
+- Clone o repositório do projeto usando o comando git clone <url do repositório>.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- Instale as dependências do projeto usando o comando npm install.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+ - Inicie o projeto usando o comando npm start.
 
-### `npm test`
+## Funcionalidades
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+# Este projeto inclui as seguintes funcionalidades:
 
-### `npm run build`
+- Jogo "Tic Tac Toe" com dois jogadores.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- Troca de jogador a cada jogada.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- Indicação do vencedor ou empate.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- Reinício do jogo.
 
-### `npm run eject`
+- Uso
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+# Para usar o projeto, siga os seguintes passos:
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- Abra o navegador e acesse o endereço http://localhost:3000.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+- Clique em uma das células do tabuleiro para fazer sua jogada.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+- Continue jogando até que um jogador vença ou ocorra um empate.
 
-## Learn More
+- Para reiniciar o jogo, clique no botão "Reiniciar".
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## Componentes
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+O projeto é composto pelos seguintes componentes:
 
-### Code Splitting
+- Game: O componente raiz que gerencia o estado do jogo.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+- Board: O componente que renderiza o tabuleiro e as células do jogo.
 
-### Analyzing the Bundle Size
+- Square: O componente que representa uma célula do tabuleiro.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+## Bibliotecas e Dependências
 
-### Making a Progressive Web App
+# Este projeto faz uso das seguintes bibliotecas e dependências:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+- ReactJS: biblioteca JavaScript para construção de interfaces de usuário.
 
-### Advanced Configuration
+- ReactDOM: biblioteca JavaScript para renderização de componentes React no navegador.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+## Conclusão
 
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Este projeto é uma implementação simples do jogo "Tic Tac Toe" usando ReactJS (JSX). Ele pode ser usado como ponto de partida para projetos mais complexos que utilizem a biblioteca ReactJS.
