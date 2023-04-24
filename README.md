@@ -1,8 +1,8 @@
-## Introdução
+# Introdução
 
 Este projeto é uma implementação do clássico jogo "Tic Tac Toe" usando ReactJS (JSX). O objetivo do jogo é alinhar três símbolos iguais em uma linha vertical, horizontal ou diagonal.
 
-## Instalação
+# Instalação
 
 - Para instalar o projeto, siga os seguintes passos:
 
@@ -12,9 +12,9 @@ Este projeto é uma implementação do clássico jogo "Tic Tac Toe" usando React
 
  - Inicie o projeto usando o comando npm start.
 
-## Funcionalidades
+# Funcionalidades
 
-# Este projeto inclui as seguintes funcionalidades:
+## Este projeto inclui as seguintes funcionalidades:
 
 - Jogo "Tic Tac Toe" com dois jogadores.
 
@@ -24,9 +24,9 @@ Este projeto é uma implementação do clássico jogo "Tic Tac Toe" usando React
 
 - Reinício do jogo.
 
-- Uso
+# Uso
 
-# Para usar o projeto, siga os seguintes passos:
+## Para usar o projeto, siga os seguintes passos:
 
 - Abra o navegador e acesse o endereço http://localhost:3000.
 
@@ -36,7 +36,7 @@ Este projeto é uma implementação do clássico jogo "Tic Tac Toe" usando React
 
 - Para reiniciar o jogo, clique no botão "Reiniciar".
 
-## Componentes
+# Componentes
 
 O projeto é composto pelos seguintes componentes:
 
@@ -46,14 +46,14 @@ O projeto é composto pelos seguintes componentes:
 
 - Square: O componente que representa uma célula do tabuleiro.
 
-## Bibliotecas e Dependências
+# Bibliotecas e Dependências
 
-# Este projeto faz uso das seguintes bibliotecas e dependências:
+## Este projeto faz uso das seguintes bibliotecas e dependências:
 
 - ReactJS: biblioteca JavaScript para construção de interfaces de usuário.
 
 - ReactDOM: biblioteca JavaScript para renderização de componentes React no navegador.
 
-## Conclusão
+# Conclusão
 
 Este projeto é uma implementação simples do jogo "Tic Tac Toe" usando ReactJS (JSX). Ele pode ser usado como ponto de partida para projetos mais complexos que utilizem a biblioteca ReactJS.
