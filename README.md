@@ -57,6 +57,9 @@ O projeto é composto pelos seguintes componentes:
 Este projeto é uma implementação simples do jogo "Tic Tac Toe" usando ReactJS (JSX). Ele pode ser usado como ponto de partida para projetos mais complexos que utilizem a biblioteca ReactJS.
 
 
+
+
+
 # Introduction
 
 This project is an implementation of the classic game "Tic Tac Toe" using ReactJS (JSX). The objective of the game is to align three equal symbols in a vertical, horizontal or diagonal line.
